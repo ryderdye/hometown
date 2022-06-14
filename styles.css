@@ -1,0 +1,96 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Gentium Plus', serif;
+    background: linear-gradient(76A3B0, 0A5565);
+    
+}
+
+/*Section 1*/
+
+#hero{
+    background-image: url("images/beach.jpg");
+    background-size: cover;
+    height: 300px; 
+    padding: 40px;
+    font-size: 20px;
+    margin: 0;
+}
+
+#hero-h1, #hero-h2{
+    color: #F2D4B2;
+    text-shadow: 2px 2px 15px black;
+}
+
+
+/*Section 2*/
+
+#activities{
+    margin: -20px;
+    background: linear-gradient(#75A1AC, white);
+    height: 400px;
+    color: #312909;
+}
+
+#activities-h3{
+    padding: 20px;
+}
+    
+#activity1, #activity2, #activity3{
+    width: 200px;     
+}
+
+#activity-wrapper{
+   display: flex;
+   justify-content: space-around;
+   padding: 0 20px 0 20px;
+}
+
+#image1, #image2, #image3{
+    width: 100px;
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+}
+
+
+
+/*Section 3*/
+
+#guide{
+    
+    border-radius: 5px;
+    border-bottom: 5px solid #247A8A;
+    background: #76A3B0;
+    padding: 0px 10px 6px 10px;;
+    display: flex;
+    width: 300px;
+    height: 220px;
+    margin: 40px auto 20px auto;   
+}
+#guide-text{
+    padding: 20px 0px 20px 10px;
+}
+
+#guide-image{
+    width: 150px;
+    height: 190px;  
+    border-radius: 10px;
+    margin-top: 19px
+}
+
+#italic{
+    font-style: italic;
+}
